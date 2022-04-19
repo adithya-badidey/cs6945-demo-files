@@ -1,0 +1,74 @@
+.B {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 6px;
+    margin-left: 2px;
+}
+
+.last-box {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-right: 6px;
+    margin-right: 2px;
+}
+
+
+.color0 { background: #e6145a}
+.color1 { background: #e6285a}
+.color2 { background: #e63c5a}
+.color3 { background: #e6505a}
+.color4 { background: #e6645a}
+.color5 { background: #e6785a}
+.color6 { background: #e68c5a}
+.color7 { background: #e6a05a}
+.color8 { background: #e6b45a}
+.color9 { background: #e6c85a}
+.color10 { background: #e6dc5a}
+.color11 { background: #e6e65a}
+.color12 { background: #d2e65a}
+.color13 { background: #bee65a}
+.color14 { background: #aae65a}
+.color15 { background: #96e65a}
+.color16 { background: #82e65a}
+.color17 { background: #6ee65a}
+.color18 { background: #5ae65a}
+.color19 { background: #46e65a}
+.color20 { background: #32e65a}
+
+
+.B-Label {
+    color: black;
+    font-size: 0.6em;
+    line-height: 1;
+}
+.ann-container>span {
+
+    line-height: 1.5;
+    padding: 3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: inline-block;
+}
+.O .tooltiptext {
+    visibility: hidden;
+}
+
+.highlight .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.highlight:hover .tooltiptext {
+    visibility: visible;
+}
